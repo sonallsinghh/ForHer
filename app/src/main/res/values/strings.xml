@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Menstruation Nation</string>
+    <string name="app_name">For Her</string>
     <string name="welcome">Welcome!</string>
     <string name="quick_start">Quick Start</string>
     <string name="apple_start">Sign in with Apple</string>
@@ -66,11 +66,11 @@
     <string name="confirm_back_up">Confirm Back Up</string>
     <string name="settings_home">Settings</string>
     <string name="reminder_description">We\'ll remind you to log your symptoms.</string>
-    <string name="copyright">© 2023 The Period Purse. All rights reserved.</string>
+<!--    <string name="copyright">© 2023 The Period Purse. All rights reserved.</string>-->
     <string name="please_start_logging_to_learn_more">Please start logging to learn more</string>
     <string name="back_button_label">Back Button</string>
     <string name="product_image_description">%s Image</string>
-    <string name="tap_to_learn_more">Tap to learn more about period products.</string>
+    <string name="tap_to_learn_more">Tap to learn more about period products and mental health.</string>
     <string name="did_you_know">Did you know?</string>
     <string name="paddy">Paddy</string>
     <string name="facebook">Facebook</string>

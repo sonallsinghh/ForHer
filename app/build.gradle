@@ -2,24 +2,23 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'com.google.gms.google-services'
-    id "org.jetbrains.kotlin.plugin.noarg" version "1.6.10"
     id 'kotlin-kapt'
     id 'com.google.dagger.hilt.android'
     id("com.google.firebase.crashlytics")
 }
 
 android {
-    namespace 'com.tpp.theperiodpurse'
+    namespace 'com.tpp.mindflow'
     compileSdk 33
 
 
     defaultConfig {
-        applicationId "com.tpp.theperiodpurse"
+        applicationId "com.tpp.mindflow"
         minSdk 21
         targetSdk 33
         versionCode 11
         versionName "2.4.0"
-        testInstrumentationRunner "com.tpp.theperiodpurse.CustomTestRunner"
+        testInstrumentationRunner "com.tpp.mindflow.CustomTestRunner"
 
         vectorDrawables {
             useSupportLibrary true
@@ -44,11 +43,11 @@ android {
 
     compileOptions {
         coreLibraryDesugaringEnabled true
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = '1.8'
+        jvmTarget = '17'
         freeCompilerArgs += [
                 '-Xjvm-default=enable'
         ]
@@ -102,6 +101,7 @@ dependencies {
     implementation "androidx.compose.ui:ui:$compose_ui_version"
     implementation "androidx.compose.ui:ui-tooling-preview:$compose_ui_version"
     implementation 'androidx.compose.material:material:1.1.1'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.8.0"
     implementation "androidx.compose.material:material-icons-extended:$compose_ui_version"
     implementation 'com.kizitonwose.calendar:compose:2.0.4'
     implementation "androidx.compose.ui:ui-test-junit4:$compose_ui_version"

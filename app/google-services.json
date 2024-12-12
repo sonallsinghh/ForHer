@@ -1,41 +1,41 @@
 {
   "project_info": {
-    "project_number": "941432711682",
-    "project_id": "menstruation-nation-382503",
-    "storage_bucket": "menstruation-nation-382503.appspot.com"
+    "project_number": "352206759775",
+    "project_id": "mindflow-5081e",
+    "storage_bucket": "mindflow-5081e.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:941432711682:android:c987af18ea56ebfcd8151b",
+        "mobilesdk_app_id": "1:352206759775:android:b355b586854b97883ff8ea",
         "android_client_info": {
-          "package_name": "com.tpp.theperiodpurse"
+          "package_name": "com.tpp.mindflow"
         }
       },
       "oauth_client": [
         {
-          "client_id": "941432711682-e648chv0m2h1ibt3rfp36fpco67lebi4.apps.googleusercontent.com",
+          "client_id": "352206759775-dsv2tccvpm9pan9q9c8e8ibtna3ll7a6.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.tpp.theperiodpurse",
-            "certificate_hash": "9530ca5d378bc848254e8ff14511ffe6f91b5bd3"
+            "package_name": "com.tpp.mindflow",
+            "certificate_hash": "c6eb6b72915308fb3fb75d90f340486893c05e31"
           }
         },
         {
-          "client_id": "941432711682-q1edmoah7qan023krcvitfch5sp1uhqi.apps.googleusercontent.com",
+          "client_id": "352206759775-d4e7daan7pbffn6njcj8m845rh15tm6s.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCscv98ohFXfB0fMiJZazhb4jw2DkBtE78"
+          "current_key": "AIzaSyDkx6R8CQtFBr89wEyAtTdeqLsAZhjYffo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "941432711682-q1edmoah7qan023krcvitfch5sp1uhqi.apps.googleusercontent.com",
+              "client_id": "352206759775-d4e7daan7pbffn6njcj8m845rh15tm6s.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
